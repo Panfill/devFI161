@@ -1,0 +1,57 @@
+PR
+Laboratorul NR.1
+
+Am creat un directoriu local de lucru in care se va afla fisierul de versionat utilizind comanda mkdir pentru crearea directorului in linia de comanda a terminalului, iar navigarea prin: cd local-repo.
+
+1
+
+Am initializat repozitorul GIT in acest director prin git init 2
+
+Am modificat continutul directorului adaugand un fisier README.md prin comanda echo in care am inscris PR 3
+
+Am modificat repozitoriul local, ori de cate ori s-a modifica directorul de lucru:
+
+STAGE - git add
+
+HEAD - git commit -m "First commit"
+
+4 5
+
+Am adaugat repozitoriul distant git remote add origin...
+
+6
+
+Am reinnoit repozitoriul distant origin, ramura master git push -u origin master 7
+
+8
+
+Am utilizat comanda git status pentru a vedea starea directorului de lucru si repozitoriului local
+
+Am creat o ramura noua de dezvoltare dev
+
+9
+
+Am trecut in ramura nou creata dev
+
+10
+
+11
+
+Am verificat daca sunt modificari in repozitoriul distant
+
+12
+
+Am reinnoit repozitoriul distant, aflindu-ma pe ramura dev
+
+13
+
+Am trecut pe ramura principala de dezvoltare master
+
+14
+
+15
+Am unificat ramurile master si dev
+
+16
+
+17
